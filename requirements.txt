@@ -1,0 +1,8 @@
+# Requirements for the backend. You can install these with
+# `pip install -r requirements.txt` in your virtual environment.
+
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.6
+pandas>=2.0
+ccxt>=4.0  # optional for live market data; not used in the stub
